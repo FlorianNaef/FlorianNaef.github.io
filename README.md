@@ -6,4 +6,4 @@ Hello this is **bold**
 
 > Backquote
 
-![](/assets/images/tux.png)
+![Swag](Swag.jpg)
