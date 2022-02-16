@@ -1,2 +1,2 @@
 # FlorianNaef.github.io
-# Hello my friends 
+Hello my friends 
