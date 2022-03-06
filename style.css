@@ -1,23 +1,39 @@
-body{
-background-color: rgb(255, 255, 255);
-}
+@media only screen and (max-width: 768px) {
 
-.navbar{
-    background-color:aqua;
-    padding: 0.5%;
-    margin: 1%;
-    margin-top: 2%;
-    outline: solid 5px aqua;
-}
-
-
-.container {
-    font-family: arial;
-    font-size: 4vw;
-    outline: solid 5px black;
-    background-color: rgb(255, 255, 255);
+  body{
+    background-color: rgb(0, 0, 0);
+    background-image: url("/images/background_hochformat.jpg")
   }
+
+}
+
+@media only screen and (min-width: 769px) {
+
+  body{
+    background-color: rgb(0, 0, 0);
+    background-image: url("/images/background_querformat.jpg")
+  }
+
+}
+
+#base{
+  font-family: 'Noto Serif Display', serif;
+  color: rgb(150, 219, 148);
+}
+
+#besuch{
+  font-size: 2em;
+  text-align: center;
+  margin: 1em 0 3em 0;
+}
+
+#hi{
+  font-family: 'Noto Serif Display', serif;
+  font-size: 10em;
+  margin-bottom: 0;
+}
   
-  p {
-    text-align: center;
-  }
+p {
+  text-align: center;
+}
+
