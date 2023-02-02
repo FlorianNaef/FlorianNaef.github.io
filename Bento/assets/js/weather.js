@@ -15,7 +15,7 @@ weather.temperature = {
 var tempUnit = CONFIG.weatherUnit;
 
 const KELVIN = 273.15;
-const key = `${CONFIG.weatherKey}`;
+const key = atob(`${CONFIG.weatherKey}`);
 setPosition();
 
 function setPosition(position) {

@@ -5,13 +5,15 @@
 // │  │ ││││├┤ ││ ┬│ │├┬┘├─┤ │ ││ ││││
 // └─┘└─┘┘└┘└  ┴└─┘└─┘┴└─┴ ┴ ┴ ┴└─┘┘└┘
 
+
+
 const CONFIG = {
 	// ┌┐ ┌─┐┌─┐┬┌─┐┌─┐
 	// ├┴┐├─┤└─┐││  └─┐
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Florian',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
@@ -26,14 +28,14 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherKey: 'OWZmYzQyNDYwZmMwYWZiMzcyMjI2YmFlNzRjMzI4MWI=', // Hashed key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
-	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
+	defaultLatitude: '47.391',
+	defaultLongitude: '9.389',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -55,19 +57,19 @@ const CONFIG = {
 			id: '1',
 			name: 'Github',
 			icon: 'github',
-			link: 'https://github.com/',
+			link: 'https://github.com/FlorianNaef',
 		},
 		{
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://gmail.com/',
 		},
 		{
 			id: '3',
 			name: 'Todoist',
 			icon: 'trello',
-			link: 'https://todoist.com',
+			link: 'https://to-do.live.com/tasks/planned',
 		},
 		{
 			id: '4',
@@ -85,7 +87,7 @@ const CONFIG = {
 			id: '6',
 			name: 'Odysee',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://www.youtube.com/feed/subscriptions',
 		},
 	],
 
