@@ -15,7 +15,7 @@ const CONFIG = {
 	// General
 	name: 'Florian',
 	imageBackground: false,
-	openInNewTab: true,
+	openInNewTab: false,
 	twelveHourFormat: false,
 
 	// Greetings
