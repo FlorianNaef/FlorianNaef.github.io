@@ -81,7 +81,6 @@ body {
 }
 
 .topContainer {
-  height: 95%;
   display: flex;
   align-items: center;
   justify-content: center;
