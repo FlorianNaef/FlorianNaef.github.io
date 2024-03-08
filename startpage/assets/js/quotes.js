@@ -3,8 +3,7 @@ const containerElement = document.querySelector('.quotesBlock');
 displayQuote();
 
 function displayQuote() {
-  const url =
-    'https://api.allorigins.win/raw?url=https://zenquotes.io/api/today';
+  const url = 'https://zenquotes.io/api/random';
   fetch(url)
     .then((r) => r.json())
     .then((r) => {
