@@ -7,7 +7,6 @@ function displayQuote() {
   fetch(url)
     .then((r) => r.json())
     .then((r) => {
-      console.log(containerElement, r);
       containerElement.innerHTML = '<p>' + r[0].q + ' - ' + r[0].a + '</p>';
     });
 }
