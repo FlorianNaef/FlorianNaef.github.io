@@ -42,6 +42,7 @@
   /* Fonts Color */
   --fg: #d8dee9; /* Foreground color */
   --sfg: #2c292e; /* Secondary Foreground color */
+  --tfg: #494949; /* Tertiary Foreground color */
 
   /* Image background  */
   --imgcol: linear-gradient(
@@ -145,6 +146,27 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.quoteBlock{
+  position: fixed;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 150px;
+  margin: 20px;
+  padding: 20px;
+  font-size: var(--fg-secondary);
+  font-weight: 100;
+
+  .quoteText{
+    color: var(--fg);
+  }
+  
+  .quoteAutor{
+    color: var(--tfg);
+  }
 }
 
 .date {

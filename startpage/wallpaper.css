@@ -40,6 +40,7 @@
   /* Fonts Color */
   --fg: #d8dee9; /* Foreground color */
   --sfg: #2c292e; /* Secondary Foreground color */
+  --tfg: #494949; /* Tertiary Foreground color */
 
   /* Image background  */
   --imgcol: linear-gradient(
@@ -106,15 +107,24 @@ body {
   justify-content: center;
 }
 
-.quotesBlock{
+.quoteBlock{
   position: fixed;
   bottom: 5vh;
   width: 100vw;
   display:flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   font-size: var(--fg-secondary);
   font-weight: 100;
-  color: var(--fg);
+
+  .quoteText{
+    color: var(--fg);
+  }
+  
+  .quoteAutor{
+    color: var(--tfg);
+  }
 }
 
 .date {
@@ -195,7 +205,7 @@ body {
     display: none;
   }
 
-  .quotesBlock{
+  .quoteBlock{
     display: none;
   }
 
