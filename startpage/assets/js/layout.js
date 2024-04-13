@@ -20,8 +20,8 @@ const generateLayout = () => {
 
   let quoteBlockContainer = `
   	<div class="card quoteBlock">
-  		<span class="quoteText"></span>
-  		<span class="quoteAutor"></span>
+  		<span id="quoteText"></span>
+  		<span id="quoteAutor"></span>
 	  </div>
   `;
 

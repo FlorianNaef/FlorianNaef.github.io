@@ -160,11 +160,11 @@ body {
   font-size: var(--fg-secondary);
   font-weight: 100;
 
-  .quoteText{
+  #quoteText{
     color: var(--fg);
   }
   
-  .quoteAutor{
+  #quoteAutor{
     color: var(--tfg);
   }
 }

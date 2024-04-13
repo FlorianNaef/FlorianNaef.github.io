@@ -5,8 +5,8 @@ function getQuote() {
 }
 
 function displayQuote() {
-  const spanText = document.querySelector('.quoteText');
-  const spanAutor = document.querySelector('.quoteAutor');
+  const spanText = document.querySelector('#quoteText');
+  const spanAutor = document.querySelector('#quoteAutor');
   getQuote().then((r) => {
     spanText.innerText = r[0].q;
     spanAutor.innerText = r[0].a;
